@@ -107,9 +107,15 @@ body {
     background-color: #202020;
 }
 
+.vertudo {
+    float: right;
+    font-weight: bold;
+    color: white;
+}
+
 .topbar_wraper {
     display: block;
-    padding: 10px;
+    padding: 1px;
 }
 
 .topbar_seta {
@@ -215,4 +221,17 @@ body {
     background-color: #282828;
     border-radius: 8px;
     text-align: center;
+}
+
+.main_col p {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+}
+
+h3 {
+    color: #1ED760;
 }
