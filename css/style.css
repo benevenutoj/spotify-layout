@@ -114,19 +114,64 @@ body {
 
 .topbar_seta {
     display: inline-block;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     margin: 0px;
-    border: 0;
     text-align: center;
     vertical-align: middle;
-    margin-top: 22px;
-    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
 }
 
-.topbar_seta p {
-    font-size: 30px;
-    font-style: none;
+.topbar_seta_selecionado {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 25px;
+    background-color: #1ED760;
+    border-radius: 8px;
+}
+
+.topbar_seta:hover {
+    background-color: #1ED760;
+}
+
+.topbar_botoes {
+    display: block;
+    float: right;
+    height: 70px;
+    width: 150px;
+    align-items: center
+}
+
+.topbar_botoes_login {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.topbar_botoes_login a {
+    color: #111111;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topbar_botoes_login a:hover {
+    font-weight: bold;
+}
+
+.topbar_botoes_login:hover {
+    background-color: #1ED760;
 }
 
 
