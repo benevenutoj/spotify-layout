@@ -11,6 +11,15 @@ body {
     height: 100%;
 }
 
+h2 {
+    color: white;
+    font-size: 18px;
+}
+
+h3 {
+    color: #1ED760;
+}
+
 .sidebar {
     float: left;
     width: 250px;
@@ -228,11 +237,80 @@ body {
     color: white;
 }
 
-h2 {
+.player {
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(60, 60, 60);
+}
+
+.player_artist {
+    width: 20%;
+}
+
+.player_artist img {
+    max-width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.player_artist h3>span {
+    color: rgb(200, 200, 200);
+}
+
+.player_artist h3 {
+    display: inline-block;
     color: white;
+    font-weight: normal;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.player_control {
+    width: 70%;
+    text-align: center;
+}
+
+.player_control_buttons a {
+    color: white;
+    margin: 8px 15px;
     font-size: 18px;
 }
 
-h3 {
-    color: #1ED760;
+.player_control_progress {
+    width: 100%;
+    max-width: 600px;
+    height: 7px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 8px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+.player_control_progress_2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 7px;
+    border-radius: 8px;
+    background-color: rgb(190, 190, 190);
+}
+
+@media screen and (max-width: 1700px) {
+    .main_col {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main_col {
+        width: 49%;
+    }
 }
